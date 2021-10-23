@@ -1,0 +1,150 @@
+body {
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 60px;
+  color: #3e98b8;
+  text-align: left;
+  text-transform: capitalize;
+}
+h2 {
+  font-size: 50px;
+  color: rgb(62, 152, 184, 0.6);
+  margin: 10px;
+}
+h3 {
+  color: #4e6e96;
+  margin: 20px 5px 30px 20px;
+}
+hr {
+  margin: 0 auto;
+}
+
+.date {
+  font-size: 40px;
+  margin: 20px, 0px, 0px;
+  text-align: right;
+}
+.location {
+  margin-bottom: 30px;
+}
+a#celsius,
+a#fahrenheit {
+  font-size: 20px;
+  color: rgb(0, 102, 139);
+  text-decoration: none;
+}
+span#divider {
+  font-size: 20px;
+  color: darkmagenta;
+  padding: 10px;
+}
+.temp {
+  width: 0;
+}
+.wrap {
+  border: groove rgba(153, 167, 182, 0.1);
+  border-radius: 8px;
+  padding: 10px 0px 0px;
+  margin-top: 60px;
+  max-width: 600px;
+}
+.search-city-text {
+  line-height: 40px;
+}
+
+.search-city-button {
+  line-height: 32px;
+  color: #385170;
+  background-color: #9fd3c7;
+  margin: 0, 8px;
+}
+.current-city-button {
+  line-height: 32px;
+  color: #385170;
+  background-color: #9fd3c7;
+  margin: 0, 8px;
+}
+.sun-icon {
+  color: #9fc5d3;
+  font-size: 70px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.description {
+  color: #385170;
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+.row-details {
+  margin: 0 auto;
+  background-color: #fbfcfc;
+}
+.wind-icon {
+  color: #ffb5b5;
+  font-size: 50px;
+  border-radius: 20px;
+  margin: 20px 20px 0px 30px;
+}
+.precipitation-icon {
+  color: #8ce9d4;
+  font-size: 50px;
+  border-radius: 20px;
+  margin: 20px 20px 0px 30px;
+}
+.temperature-icon {
+  color: #42d3b2;
+  font-size: 50px;
+  border-radius: 20px;
+  margin: 20px 20px 0px 30px;
+}
+.forecast {
+  background-color: rgb(173, 220, 237, 0.3);
+  margin: 0 auto;
+}
+.tue-text,
+.wed-text,
+.thu-text,
+.fri-text,
+.sat-text {
+  color: #385170;
+  font-size: 40px;
+  text-align: center;
+}
+.tue-temp,
+.wed-temp,
+.thu-temp,
+.fri-temp,
+.sat-temp {
+  color: rgb(56, 81, 112, 0.8);
+  font-size: 25px;
+  text-align: center;
+}
+.tue {
+  color: #8ce9d4;
+  text-align: center;
+  font-size: 25px;
+}
+.wed {
+  color: #a7b3ba;
+  text-align: center;
+  font-size: 25px;
+}
+.thu {
+  color: #9fc5d3;
+  text-align: center;
+  font-size: 25px;
+}
+.fri {
+  color: #9fc5d3;
+  text-align: center;
+  font-size: 25px;
+}
+.sat {
+  color: #a7b3ba;
+  text-align: center;
+  font-size: 25px;
+}
